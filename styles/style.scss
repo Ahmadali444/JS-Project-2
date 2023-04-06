@@ -1,0 +1,156 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F0FAEF;
+    text-align: center;
+}
+
+main {
+    flex: 1 0 auto;
+    margin: 0 15%;
+}
+
+hr {
+    margin: 20px 15% 0;
+}
+
+
+/* Header */
+.navbar {
+    background-color: #1D3557;
+    padding: 0 15%;
+}
+
+.navItems {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.d-flex {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    height: 35px;
+    margin-top: 4px;
+}
+
+#sear {
+    margin-top: 4px;
+}
+
+/* Main Part */
+.box {
+    border: 2px solid #C6CFCA;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.set {
+    float: left;
+    width: 460px;
+}
+
+.real {
+    background-color: #1D3557;
+    color: white;
+    height: 91px;
+    font-size: 17px;
+}
+
+.input-group {
+    margin: 4px 0;
+}
+
+.h {
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.set1 {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+.set2 {
+    margin-right: 10px;
+}
+
+.modal-body{
+    background-image: url("https://source.unsplash.com/400x400/?nature");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/* button */
+.btn {
+    font-size: 12px;
+    margin-top: 10px;
+    width: 45%;
+}
+
+.btn-danger {
+    width: 70%;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-success {
+    width: 100%;
+    font-size: 15px;
+}
+
+.btnClear {
+    margin-top: 4px;
+}
+
+.codeout {
+    margin: 0;
+}
+
+.outPut {
+    overflow: visible;
+    overflow-wrap: break-word;
+}
+
+
+/* footer */
+footer {
+    height: 40px;
+    background-color: #1D3557;
+    color: white;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}

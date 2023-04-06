@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Toastify Link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg pad">
+            <div class="container-fluid">
+                <a class="navbar-brand navItems" href="#">Assignments</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link navItems" aria-current="page" href="#">Chapter 69-75</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" id="search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button id="sear" class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <h4 class="h">
+            Chapter # 69 - 75 | Objects, Properties, Methods, Constructors and Prototypes
+        </h4>
+        <hr />
+        <div class="set set2">
+            <h4 class="p">Buttons</h4>
+            <div class="pad box">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Show Image
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Nature Beauty</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body" id="modal-body">
+
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-danger" onclick="showTable()">
+                    Show Table
+                </button>
+                <button type="button" class="btn btn-danger" onclick="printInConsole()">
+                    Print User in Console
+                </button>
+            </div>
+        </div>
+        <div class="set set3">
+            <h4 class="p">Form</h4>
+            <div class="pad box outPut">
+                <form id="Submit">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" id="firstName" placeholder="First name"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="lastName" placeholder="Last name"
+                                aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" id="birthday" name="birthday">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="submit" onclick="onSubmit()" class="btn btn-success" value="Add User">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="set set1">
+            <h4 class="p">Output / Result</h4>
+            <div class="pad box outPut">
+                <p id="output" class="codeout"></p>
+            </div>
+            <button type="button" class="btn btn-outline-secondary" onclick="outclear()">
+                Clear Result
+            </button>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2023. Assignments By <b>www.ahmed-sixteen-assignment.surge.sh</b></p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Toastify Link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>
